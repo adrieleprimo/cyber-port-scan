@@ -16,7 +16,7 @@ def scan_port(ip, port):
         print(f"Error connecting to port{port}")
 
 if __name__ == "__main__":
-    ip = "108.179.252.93"
+    ip = "ip"
     ports =  [80, 443, 22]
 
     for port in ports:
