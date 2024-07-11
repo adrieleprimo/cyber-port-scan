@@ -1,4 +1,4 @@
-<p align="center"><img align="center" width="280" src="./assets/cyber-port-icon.gif"/></p>
+<p align="center"><img align="center" width="280" src="./assets/cyber-port.gif"/></p>
 
 
 # Cyber Port
