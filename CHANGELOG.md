@@ -8,9 +8,11 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 ### Added
 - Added functionality to save open ports in an `open_ports.txt` file.
+- Added door service type to `open_ports.txt` file.
 
 ### Changed
 - Improved the output message in the terminal to display only open ports.
+- Changing the return from None to "" in `scan_port.py`.
 
 ### Fixed
 - Fixed bug where port scanning did not correctly handle unreachable hosts.
