@@ -1,4 +1,5 @@
 import socket
+from services import port_services
 
 def scan_port(ip, port):
     try:
@@ -7,10 +8,11 @@ def scan_port(ip, port):
         result = sock.connect_ex((ip, port))
         sock.close()
         if result == 0:
-            return True
+            service = port_services.get(port, "Unknown Service")
+            return True, service
         else:
-            return False
+            return False,""
 
     except socket.error:
-        return False
+        return False, ""
 
