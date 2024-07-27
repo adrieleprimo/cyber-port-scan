@@ -1,0 +1,21 @@
+port_services = {
+    21: "FTP",
+    22: "SSH",
+    23: "Telnet",
+    25: "SMTP",
+    26: "TCP/UDP",
+    53: "DNS",
+    80: "HTTP",
+    110: "POP3 (Not encrypted)",
+    143: "IMAP",
+    443: "HTTPS",
+    445: "SMB",
+    465: "SMTPS",
+    587: "SMTP",
+    993: "IMAPS",
+    995: "POP3(Encrypted)",
+    3306:"MySQL",
+    3389: "RDP",
+    5900: "VNC",
+    8080: "HTTP Proxy"
+}
