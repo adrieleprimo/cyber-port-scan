@@ -20,6 +20,6 @@ def main():
 
     with open("open_ports.txt", "w") as file:
         for port in open_ports:
-            file.write(f"Port{port} ({service}) : Open\n")
+            file.write(f"Port{port} {service} : Open\n")
 if __name__ == "__main__":
     main()
