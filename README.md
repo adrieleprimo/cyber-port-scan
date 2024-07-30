@@ -2,7 +2,9 @@
 
 
 # Cyber Port Scan
-Cyber Port is intended to be its own tool, with the aim of scanning open ports of a given ip. The focus is on improving notions of cybersecurity and having our own projects focused on this area. 
+Cyber Port is intended to be its own tool, with the aim of scanning open ports of a given ip. The focus is on improving notions of cybersecurity and having our own projects focused on this area.
+
+**Please note that this repository is for educational purposes only!**
 
 ## How to use
 1. Clone the repository:
