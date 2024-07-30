@@ -10,6 +10,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Added functionality to save open ports in an `open_ports.txt` file.
 - Added door service type to `open_ports.txt` file.
 - Added more type of ports to `port_services`.
+- Implemented threading in the port scanning process to improve speed and efficiency
 
 ### Changed
 - Improved the output message in the terminal to display only open ports.
