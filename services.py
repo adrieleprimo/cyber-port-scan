@@ -4,6 +4,7 @@ port_services = {
     22: "SSH",
     23: "Telnet",
     25: "SMTP",
+    26: "SMTP (Alternate)",
     43: "WHOIS",
     53: "DNS",
     67: "DHCP (Server)",
