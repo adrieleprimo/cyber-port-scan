@@ -29,5 +29,5 @@ cd cyber-port-scanner
     ## Features
 
 - Port scanning from 1 to 1024.
-- Displays open and closed ports in the terminal.
+- Displays open ports in the terminal.
 - Saves open ports in an `open_ports.txt` file.
